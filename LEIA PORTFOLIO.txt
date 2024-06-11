@@ -1,0 +1,5 @@
+Este é o meu primeiro projeto, desenvolvido com o conhecimento que adquiri em três meses de estudo. A proposta era criar um portfólio que mostrasse todas as habilidades que eu possuía no momento em que o projeto foi solicitado.
+
+Com isso em mente, fiz o melhor que pude, incluindo informações sobre minha vida, certificados e outras realizações.
+
+O código foi desenvolvido utilizando HTML5, CSS e JavaScript.
