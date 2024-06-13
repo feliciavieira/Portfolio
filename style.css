@@ -1,0 +1,283 @@
+html {
+  height: 100%; /* Determina a altura da área do conteúdo de um elemento.*/
+  width: 100%; /* Largura */
+  margin:0;  /* Margem */
+  padding:0; /* Preenchimento */
+  box-sizing: border-box; /* Dimensionamento de caixa */
+  font-family: 'Nunito', sans-serif; /* Fonte*/
+}
+
+body{
+  background-color:#000; /* Cor de fundo*/
+  height:100vh;  /* Altura */
+}
+
+.interface{
+  max-width: 1280px; /* Largura Maxíma */
+  margin: 0 auto; /* Margem */
+}
+
+.flex{
+  display: flex;
+}
+
+.botao-contato button{
+  padding: 10px 40px; /* Preenchimento */
+  font-family: 'Nunito', sans-serif; /* Fonte*/
+  font-size: 18px; /* Tamanho da fonte*/
+  font-weight: 600; /* Espessura da fonte */
+  background-color: #bf00ff; /* Cor de fundo */
+  border: 0; /* Borda */
+  border-radius: 30px; /* Raio da borda */
+  cursor: pointer; /* Especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento. */
+  transition: .2s; /* Permite definir a transição entre dois estados de um elemento. */
+}
+
+.btn-social button{
+  width: 60px;
+  right: 60px;
+  border-radius: 50% 60px;
+  border: none;
+  background-color:#bf00ff;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: .2s;
+}
+
+button:hover{
+  box-shadow: 0px 0px 8px #8e00bd; /* Efeitos de sombra em volta de um elemento.*/
+  transform: scale(1.05); /* Modifica o espaço coordenado do modelo */
+}
+
+h2.titulo{
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #8e00bd;
+}
+
+/*ESTILO CABEÇALHO*/
+
+header{
+  padding: 40px 4%; /* Preenchimento */
+  
+}
+header > .interface{
+  display: flex;
+  align-items: center; /* Alinhar item */
+  justify-content: space-between; /* Justificar conteúdo */
+}
+
+header a{
+  color: #919191; /* Cor */
+  text-decoration: none; /* Usada para definir a formatação. */
+  display: inline-block;
+  transition: .2s; /* Permite definir a transição entre dois estados de um elemento. */
+}
+
+header a:hover{
+  color:#fff; /* Cor */
+  transform: scale(1.05); /* Modifica o espaço coordenado do modelo */
+}
+
+header nav ul{
+  list-style-type:none ; /* Define o marcador */
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px; /* Preenchimento */
+}
+
+/*ESTILO TOPO SITE */
+section.topo-do-site{
+  padding: 40px 4%; /* Preenchimento */
+}
+
+section.topo-do-site .flex{
+  align-items: center; /* Alinhar item */
+  justify-content: center;  /* Justificar conteúdo */
+  gap: 100px; /* Define os espaços */
+}
+
+.topo-do-site h1{
+  color: #fff; /* Cor */
+  font-size: 35px; /* Tamanho da fonte*/
+  line-height: 36px; /* Define a altura de uma caixa de linha */
+}
+
+.topo-do-site .texto-topo-site h1 span{
+  color:#bf00ff; /* Cor */
+  font-size: 37px; /* Tamanho da fonte*/
+}
+
+.topo-do-site .texto-topo-site p{
+  color:#fff; /* Cor */
+  margin: 40px 0; /* Margem */
+}
+
+.topo-do-site .img-topo-site img{
+  position: relative; /* Posição */
+  animation: flutuar 2s ease-in-out infinite alternate; /* Animação */
+}
+
+@keyframes flutuar{
+  0%{
+  top: 0;
+  }
+100%{
+  top: 30px;
+}
+}
+
+/*ESTILO DAS ESPECIALIDADES */
+
+section .especialidades{
+  padding: 40px 4%;
+  text-align: center;
+}
+
+section .especialidades flex{
+  gap: 60px;
+  flex-direction: stretch;
+}
+
+ .especialidades .especialidades-box{
+   color: #fff;
+   padding: 40px;
+   border-radius: 20px;
+   margin-top: 45px;
+   transition: .2s;
+ }
+
+.especialidades .especialidades-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #bf00ff;
+}
+
+.especialidades .especialidades-box i{
+  font-size: 70px;
+  color: #bf00ff;
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+  
+}
+
+/*ESTILO SOBRE */
+
+section.sobre{
+  padding: 80px 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre{
+  color: #fff;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 40px;
+  margin-bottom:30px;
+}
+
+.sobre .txt-sobre h2 span{
+  color:#bf00ff;
+}
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+}
+
+
+/*ESTILO MEUS CERTIFICADOS */
+
+section.certificados-ocean{
+  padding: 80px 4%;
+  /* box-shadow: 0 0 40px 10px ##bf00ff; */
+}
+
+section.certificados-ocean h2{
+  color: #fffafa;
+  text-align: center;
+  font-size: 40px;
+}
+
+section.certificados-ocean h2 span{
+  color: #bf00ff ;
+}
+
+section.certificados-ocean .flex{
+  gap: 60px;
+  justify-content: space-around;
+}
+
+.python{
+  width: 360px;
+  height: 460px;
+}
+
+.python:hover{
+  color: #fff;
+  transform: scale(1.05);
+  transition:.2s;
+}
+
+/*ESTILO PROJETOS */
+section.projetosfakes{
+  padding: 80px 4%;
+}
+
+section.projetosfakes h2{
+  color:#ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+section.projetosfakes h2 span{
+  color: #bf00ff;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #0000001d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #bf00ff;
+}
+
+footer .line-footer p i {
+    color: #bf00ff;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
