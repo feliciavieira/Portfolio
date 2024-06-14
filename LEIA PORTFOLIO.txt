@@ -3,3 +3,5 @@ Este é o meu primeiro projeto, desenvolvido com o conhecimento que adquiri em t
 Com isso em mente, fiz o melhor que pude, incluindo informações sobre minha vida, certificados e outras realizações.
 
 O código foi desenvolvido utilizando HTML5, CSS e JavaScript.
+
+Link do projeto: https://917f1105-534e-4bdc-a454-793226ad280e-00-udsl33szk1fs.spock.replit.dev/
